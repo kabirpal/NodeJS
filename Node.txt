@@ -1,0 +1,8 @@
+What is Node js
+• Node is not a Language.
+• This is a Server Environment.
+• Node js can connect with database.
+• Code and syntax is very similar to JavaScript.
+• But not exactly the same.
+• Node js free,open-source.
+• Node js use Chrome's V8 engine to execute code.
