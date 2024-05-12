@@ -8,4 +8,4 @@ module.exports={
 
 const fs = require('fs');
 
-fs.writeFileSync('hello.txt','learning node js');
+fs.writeFileSync('helloWorld.txt','learning node js');

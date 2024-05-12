@@ -10,11 +10,11 @@ const os = require('os')
 const data = require('./data')
 
 const user = os.userInfo()
-console.log(user)
+// console.log(user)
 
 const time = os.uptime()
 
-console.log(`The up time of pc is ${time} seconds`)
+// console.log(`The up time of pc is ${time} seconds`)
 
 const osInfo={
     name : os.type(),
@@ -23,7 +23,7 @@ const osInfo={
     freeMemory: os.freemem()
 }
 
-console.log(osInfo)
+// console.log(osInfo)
 
 
 console.log(app2);
@@ -32,7 +32,7 @@ console.log(app2.z());
 const arr=[2,4,6,8,54,2,1,2]
 
 let two = arr.filter((item)=>{
-    return item<2;
+    return item>5;
 })
 
 console.log(two);
